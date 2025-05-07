@@ -1,0 +1,15 @@
+.transition-1 {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    bottom: 0;
+    z-index: 8;
+    background-image: url("../images/Whale-ezgif.com-crop.gif");
+    /* background-color: white; */
+    transition: 2s ease-out;
+}
+
+.transition-1.is-active {
+    right: 0px;
+}

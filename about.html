@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/about.css">
+    <link rel="stylesheet" href="CSS/transitions.css">
+    <script type="text/javascript" src="JS/darkmode.js" defer></script>
+</head>
+<body>
+    <div class="transition transition-1 is-active"></div>
+    <script src="JS/transitions.js"></script>
+
+    <header>
+        <h1>Alexis Nhan</h1>
+        <nav>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </label>
+
+            <label id="overlay" for="sidebar-active"></label>
+            <div class="links-container">
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </label>
+
+                <a class="home-link" href="index.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <button id="theme-switch">
+                    <img src="images/dark.webp" alt="dark mode">
+                    <img src="images/light.webp" alt="light mode">
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="p_flex-container">
+        <h2 style="grid-area: box-1;">Educational Background:
+            <br>
+            <br>
+            I'm a graduating computer engineering major from California State University, Fullerton. 
+        </h2>
+
+        <h2 style="grid-area: box-2;">Interests:
+            <br>
+            <br>
+            I aspire to find a career that allows for personal and professional growth. 
+        </h2>
+
+        <h2 style="grid-area: box-3;">
+            Courses Taken: <br>
+            <ul>
+                <li>Data Structures</li>
+                <li>Microcontrollers</li>
+                <li>Designing in VHDL and Verilog</li>
+                <li>Operating Systems</li>
+                <li>Computer Design and Organization</li>
+                <li>Electronics and Electric Circuits</li>
+            </ul>
+        </h2>
+
+        <h2 style="grid-area: box-4;">
+            <b>Skills:</b>
+            <br>
+            <ul>
+                    <li>Computer Languages: C++, C, Python, Javascript, HTML, CSS</li>
+                    <li>Computer: Microsoft Word, Excel, Powerpoint</li>
+                    <li>Soft Skills: Problemsolving, Teamwork, Communication</li>
+                    <li>Operating System: Linux, Windows</li>
+                    <li>Programs: MatLab, Blender, VSCode, LTSpice, SolidWorks, AutoCAD, Multisim, Vivado, TI Code Composer Studio</li>
+                
+            </ul>
+        </h2>
+
+        <h2 style="grid-area: box-5;" id="resume">
+            <a href="images/resume_3_20.pdf" style="text-decoration:none" download="resume.pdf">Download My Resume</a>
+        </h2>
+    </div>
+</body>
+</html>
